@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[CRM login page title is correct]]>
+    </line>
+    <line>
+      <![CDATA[HomePageTitle is CRMPRO]]>
+    </line>
+    <line>
+      <![CDATA[CRM Home Page Title is correct]]>
+    </line>
+    <line>
+      <![CDATA[UserName in Home page is  User: crmseltest crmseltest]]>
+    </line>
+    <line>
+      <![CDATA[UserName in CRM Home Page is incorrect]]>
+    </line>
+    <line>
+      <![CDATA[verifyContactsLinkTest]]>
+    </line>
+    <line>
+      <![CDATA[verifyContactsLinkTest begins]]>
+    </line>
+    <line>
+      <![CDATA[No frame element found by name or id mainpanel
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SYS', ip: '10.0.0.9', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_241'
+Driver info: driver.version: unknown]]>
+    </line>
+    <line>
+      <![CDATA[java.lang.reflect.InvocationTargetException
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SYS', ip: '10.0.0.9', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_241'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[Created New Contact Ananya Pandey]]>
+    </line>
+    <line>
+      <![CDATA[Created New Contact Shruti M]]>
+    </line>
+    <line>
+      <![CDATA[Created New Contact Sushma M]]>
+    </line>
+  </reporter-output>
+  <suite name="CRM Regression suite" duration-ms="271295" started-at="2020-07-11T20:40:38Z" finished-at="2020-07-11T20:45:09Z">
+    <groups>
+    </groups>
+    <test name="CRM Launch and login test" duration-ms="18405" started-at="2020-07-11T20:40:38Z" finished-at="2020-07-11T20:40:56Z">
+      <class name="TestCases.LoginPageTest">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:TestCases.LoginPageTest@e25b2fe]" name="initialization" is-config="true" duration-ms="15849" started-at="2020-07-11T20:40:38Z" finished-at="2020-07-11T20:40:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.LoginPageTest@e25b2fe]" name="setUp" is-config="true" duration-ms="121" started-at="2020-07-11T20:40:53Z" depends-on-methods="Base.TestBase.initialization" finished-at="2020-07-11T20:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:TestCases.LoginPageTest@e25b2fe]" name="loginPageTitleTest" duration-ms="85" started-at="2020-07-11T20:40:54Z" finished-at="2020-07-11T20:40:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[CRM login page title is correct]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestCases.LoginPageTest@e25b2fe]" name="teardown" is-config="true" duration-ms="2244" started-at="2020-07-11T20:40:54Z" finished-at="2020-07-11T20:40:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCases.LoginPageTest -->
+    </test> <!-- CRM Launch and login test -->
+    <test name="Home Page test" duration-ms="139222" started-at="2020-07-11T20:40:56Z" finished-at="2020-07-11T20:43:15Z">
+      <class name="TestCases.HomePageTest">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:TestCases.HomePageTest@5cb9f472]" name="initialization" is-config="true" duration-ms="13822" started-at="2020-07-11T20:40:56Z" finished-at="2020-07-11T20:41:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.HomePageTest@5cb9f472]" name="setUp" is-config="true" duration-ms="23174" started-at="2020-07-11T20:41:10Z" depends-on-methods="Base.TestBase.initialization" finished-at="2020-07-11T20:41:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:TestCases.HomePageTest@5cb9f472]" name="verifyHomePageTitleTest" duration-ms="104" started-at="2020-07-11T20:41:33Z" finished-at="2020-07-11T20:41:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[HomePageTitle is CRMPRO]]>
+            </line>
+            <line>
+              <![CDATA[CRM Home Page Title is correct]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="verifyUserNameTest()[pri:2, instance:TestCases.HomePageTest@5cb9f472]" name="verifyUserNameTest" duration-ms="952" started-at="2020-07-11T20:41:33Z" finished-at="2020-07-11T20:41:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[UserName in Home page is  User: crmseltest crmseltest]]>
+            </line>
+            <line>
+              <![CDATA[UserName in CRM Home Page is incorrect]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUserNameTest -->
+        <test-method status="PASS" signature="ContactsLinkTest()[pri:3, instance:TestCases.HomePageTest@5cb9f472]" name="ContactsLinkTest" duration-ms="100163" started-at="2020-07-11T20:41:34Z" finished-at="2020-07-11T20:43:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[verifyContactsLinkTest]]>
+            </line>
+            <line>
+              <![CDATA[verifyContactsLinkTest begins]]>
+            </line>
+            <line>
+              <![CDATA[No frame element found by name or id mainpanel
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SYS', ip: '10.0.0.9', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_241'
+Driver info: driver.version: unknown]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ContactsLinkTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestCases.HomePageTest@5cb9f472]" name="teardown" is-config="true" duration-ms="983" started-at="2020-07-11T20:43:14Z" finished-at="2020-07-11T20:43:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCases.HomePageTest -->
+    </test> <!-- Home Page test -->
+    <test name="Contacts test" duration-ms="113605" started-at="2020-07-11T20:43:15Z" finished-at="2020-07-11T20:45:09Z">
+      <class name="TestCases.ContactsPageTest">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:TestCases.ContactsPageTest@3159c4b8]" name="setUpSuite" is-config="true" duration-ms="484" started-at="2020-07-11T20:40:37Z" finished-at="2020-07-11T20:40:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:TestCases.ContactsPageTest@3159c4b8]" name="initialization" is-config="true" duration-ms="12533" started-at="2020-07-11T20:43:15Z" finished-at="2020-07-11T20:43:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.ContactsPageTest@3159c4b8]" name="setUp" is-config="true" duration-ms="77505" started-at="2020-07-11T20:43:28Z" depends-on-methods="Base.TestBase.initialization" finished-at="2020-07-11T20:44:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[java.lang.reflect.InvocationTargetException
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SYS', ip: '10.0.0.9', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_241'
+Driver info: driver.version: RemoteWebDriver]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="CreateNewContact(java.util.Map)[pri:4, instance:TestCases.ContactsPageTest@3159c4b8]" name="CreateNewContact" duration-ms="9234" started-at="2020-07-11T20:44:46Z" data-provider="getContactsDataMap" finished-at="2020-07-11T20:44:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Company=Sasol, LastName=Pandey, FirstName=Ananya}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Created New Contact Ananya Pandey]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateNewContact -->
+        <test-method status="PASS" signature="CreateNewContact(java.util.Map)[pri:4, instance:TestCases.ContactsPageTest@3159c4b8]" name="CreateNewContact" duration-ms="6182" started-at="2020-07-11T20:44:56Z" data-provider="getContactsDataMap" finished-at="2020-07-11T20:45:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Company=Wipro Pvt Ltd, LastName=M, FirstName=Shruti}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Created New Contact Shruti M]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateNewContact -->
+        <test-method status="PASS" signature="CreateNewContact(java.util.Map)[pri:4, instance:TestCases.ContactsPageTest@3159c4b8]" name="CreateNewContact" duration-ms="5884" started-at="2020-07-11T20:45:02Z" data-provider="getContactsDataMap" finished-at="2020-07-11T20:45:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Company=Wipro Pvt Ltd, LastName=M, FirstName=Sushma}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Created New Contact Sushma M]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateNewContact -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestCases.ContactsPageTest@3159c4b8]" name="teardown" is-config="true" duration-ms="1035" started-at="2020-07-11T20:45:08Z" finished-at="2020-07-11T20:45:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCases.ContactsPageTest -->
+    </test> <!-- Contacts test -->
+  </suite> <!-- CRM Regression suite -->
+</testng-results>

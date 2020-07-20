@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="CRM Regression suite" parallel="false" >
+<!--  <listeners>
+<listener class-name="Listeners.TestNGListener"></listener>
+</listeners>
+<listeners>
+<listener class-name="Listeners.ExtentTestNGITestListener"></listener>
+</listeners>-->
+
+    
+    <test name="CRM Launch and login test" >
+       <classes>
+      <class name="TestCases.LoginPageTest"/>      
+    </classes>
+ </test>
+ 
+   <test name="Home Page test" >
+       <classes>
+      <class name="TestCases.HomePageTest"/>      
+    </classes>
+ </test>
+ 
+ 
+  <test name="Contacts test" >
+       <classes>
+      <class name="TestCases.ContactsPageTest"/>      
+    </classes>
+ </test>
+ 
+</suite>
